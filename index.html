@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>MotionCSS AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>MotionCSS <span>AI</span></h1>
+    <p>Crie animações CSS usando linguagem natural</p>
+  </header>
+
+  <div class="input-area">
+    <textarea id="prompt" placeholder="Ex: botão pulsando em vermelho com glow"></textarea>
+
+    <div class="buttons">
+      <button id="generate">Gerar animação</button>
+      <button id="variations">Gerar variações</button>
+    </div>
+  </div>
+
+  <div class="output">
+    <div class="preview-box">
+      <h3>Preview</h3>
+      <iframe id="preview"></iframe>
+    </div>
+
+    <div class="code-box">
+      <h3>Código</h3>
+      <pre id="code"></pre>
+      <button id="copy">Copiar código</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
