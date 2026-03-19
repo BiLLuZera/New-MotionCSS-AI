@@ -31,24 +31,25 @@ Exportação de animações
 Biblioteca de presets
 Deploy online
 
-## 🔗 Teste online
+## ⚡ Como testar rapidamente
 
-Experimente gerar uma animação em tempo real:
+1. Acesse o link abaixo  
+2. Use a seguinte frase de exemplo:
+
+"bola azul quicando"
+
+3. Veja o CSS gerado automaticamente
 
 👉 https://codigos-do-matheus-backend-production.up.railway.app/
 
-## ▶️ Como executar o projeto
+## 🎯 Exemplo de resultado
 
-```bash
-# Clone o repositório
-git clone https://github.com/BiLLuZera/New-MotionCSS-AI.git
+Entrada:
+"bola azul quicando"
 
-# Acesse a pasta
-cd New-MotionCSS-AI
-
-# Instale as dependências
-npm install
-
-# Execute o projeto
-npm start
-
+Saída:
+```css
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-50px); }
+}
