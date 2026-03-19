@@ -25,6 +25,15 @@ O usuário descreve a animação desejada em linguagem natural, e a aplicação 
 
 *(adicione aqui prints do projeto rodando)*
 
+💡 Possíveis melhorias
+Interface mais intuitiva
+Exportação de animações
+Biblioteca de presets
+Deploy online
+
+🔗 Acesse o projeto
+https://cur.to/cUwU
+
 ## ▶️ Como executar o projeto
 
 ```bash
@@ -39,3 +48,4 @@ npm install
 
 # Execute o projeto
 npm start
+
