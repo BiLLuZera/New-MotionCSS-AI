@@ -31,8 +31,11 @@ Exportação de animações
 Biblioteca de presets
 Deploy online
 
-🔗 Acesse o projeto
-https://cur.to/cUwU
+## 🔗 Teste online
+
+Experimente gerar uma animação em tempo real:
+
+👉 https://codigos-do-matheus-backend-production.up.railway.app/
 
 ## ▶️ Como executar o projeto
 
